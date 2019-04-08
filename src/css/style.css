@@ -65,15 +65,18 @@ b, strong {
 em, i {
     font-style: italic;
 }
-q, quote {
+q, 
+blockquote {
     display: block;
     padding: 1em;
     quotes: none;
     background: #f4f7f8;
     font-weight: bold;
 }
-q:before, quote:before,
-q:after, quote:after{
+q:before, 
+blockquote:before,
+q:after, 
+blockquote:after{
     content: '"';
     font-size: 1.5em;
     margin: 0.25em;

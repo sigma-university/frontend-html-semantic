@@ -1,3 +1,4 @@
 {
-	"htmlhint.enable": true
+	"htmlhint.enable": true,
+	"files.autoSaveDelay": 100
 }
